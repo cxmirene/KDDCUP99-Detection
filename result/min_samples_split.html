@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="echarts.min.js"></script>
+
+</head>
+<body>
+    <div id="23d867bfc55041ad9bcf2f78beb3c439" class="chart-container" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_23d867bfc55041ad9bcf2f78beb3c439 = echarts.init(
+            document.getElementById('23d867bfc55041ad9bcf2f78beb3c439'), 'white', {renderer: 'canvas'});
+        var option_23d867bfc55041ad9bcf2f78beb3c439 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "line",
+            "name": "min_samples_split",
+            "connectNulls": false,
+            "symbolSize": 4,
+            "showSymbol": true,
+            "smooth": false,
+            "step": false,
+            "data": [
+                [
+                    "2",
+                    99.85
+                ],
+                [
+                    "3",
+                    99.84
+                ],
+                [
+                    "4",
+                    99.83
+                ],
+                [
+                    "5",
+                    99.84
+                ],
+                [
+                    "6",
+                    99.84
+                ],
+                [
+                    "7",
+                    99.84
+                ],
+                [
+                    "8",
+                    99.84
+                ],
+                [
+                    "9",
+                    99.84
+                ],
+                [
+                    "10",
+                    99.84
+                ],
+                [
+                    "11",
+                    99.84
+                ],
+                [
+                    "12",
+                    99.83
+                ],
+                [
+                    "13",
+                    99.83
+                ],
+                [
+                    "14",
+                    99.83
+                ],
+                [
+                    "15",
+                    99.83
+                ],
+                [
+                    "16",
+                    99.83
+                ],
+                [
+                    "17",
+                    99.83
+                ],
+                [
+                    "18",
+                    99.84
+                ],
+                [
+                    "19",
+                    99.81
+                ],
+                [
+                    "20",
+                    99.82
+                ]
+            ],
+            "hoverAnimation": true,
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8
+            },
+            "lineStyle": {
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
+            },
+            "areaStyle": {
+                "opacity": 0
+            },
+            "markPoint": {
+                "label": {
+                    "show": true,
+                    "position": "inside",
+                    "color": "#fff",
+                    "margin": 8
+                },
+                "data": [
+                    {
+                        "type": "max"
+                    }
+                ]
+            },
+            "zlevel": 0,
+            "z": 0
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "min_samples_split"
+            ],
+            "selected": {
+                "min_samples_split": true
+            },
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0
+    },
+    "xAxis": [
+        {
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            },
+            "data": [
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20"
+            ]
+        }
+    ],
+    "yAxis": [
+        {
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "min": 99,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            }
+        }
+    ],
+    "title": [
+        {
+            "text": "min_samples_split",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ]
+};
+        chart_23d867bfc55041ad9bcf2f78beb3c439.setOption(option_23d867bfc55041ad9bcf2f78beb3c439);
+    </script>
+</body>
+</html>
